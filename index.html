@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <title>Tienda XDA - Pablo Neyra</title>
+</head>
+<body class="grid-container">
+
+
+        <nav class="item1 nav" id="myTopnav">
+            <a href="#home" class="active"><h3>XDA</h3></a>
+            <a href="#mujer">Mujer</a>
+            <a href="#hombre">Hombre</a>
+            <a href="#accesorios">Accesorios</a>
+            <a href="#blog">Blog</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+
+        <header class="item2 header">
+        </header>
+
+        <main class="item3 main">
+            <h1>Lorem ipsum ad valorem</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo id consectetur non cum sunt! Magnam vitae qui laborum soluta, totam pariatur illum fugiat quae doloribus voluptatem exercitationem recusandae deleniti quo.</p>
+            <button type="button" class="btn btn-light">Ir a tienda</button>
+        </main>
+
+        <aside class="item4 aside">
+            <div class="aside__content">
+                <h2>Newsletter</h2>
+                <h5>Correo Electrónico</h5>
+                <form action="#">
+                    <input type="text" class="form-control" placeholder="Ingresa tu correo electrónico">
+                </form>
+            </div>
+        </aside>
+        
+        <section class="item5 section">
+            <h4>Suscribir</h4>
+        </section>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "nav") {
+    x.className += " responsive";
+  } else {
+    x.className = "nav";
+  }
+}
+</script>
+
+</body>
+</html>

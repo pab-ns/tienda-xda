@@ -1,0 +1,20 @@
+// Botones
+.btn{
+    background-color: $white;
+    outline: $smokey-black solid 1px;
+    font-family: $raleway;
+    font-weight: $fw-bold;
+    font-size: $small;
+    padding: 1% 3%;
+
+    &:hover{
+    background-color: $white;
+    outline: $quick-silver solid 1px;
+    }
+
+    &:focus{
+    background-color: $white;
+    outline: $quick-silver solid 1px;   
+    color: $quick-silver;
+    }
+}
